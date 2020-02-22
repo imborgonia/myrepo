@@ -61,7 +61,14 @@ input[type=text]{
   border:none;
   border-bottom:1px solid rgba(115, 139, 167, 1);
 }
+input[type="file"]{
+  display: none;
+}
+label{
+  color: rgba(115, 139, 167, 1);
+}
 body {
   background-image: url("../images/bg.jpg");
+  background-size: cover;
   background-color: #cccccc;
 }
